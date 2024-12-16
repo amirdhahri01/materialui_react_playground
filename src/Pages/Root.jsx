@@ -1,9 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Root = () => {
-  return (
-    <div>Root</div>
-  )
+    return (
+        <div>
+            <header> My Header </header>
+            <Outlet/>
+        </div>
+    )
 }
 
 export default Root

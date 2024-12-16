@@ -1,8 +1,8 @@
 import { createBrowserRouter, createRoutesFromElements, Route , RouterProvider} from 'react-router-dom';
 import './App.css';
 import Root from './Pages/Root';
-import Home from 'Pages/Home/Home';
-import Create from 'Pages/Create/Create';
+import Home from './Pages/Home/Home';
+import Create from './Pages/Create/Create';
 
 
 const router = createBrowserRouter(
