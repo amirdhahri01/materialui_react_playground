@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom'
 const Root = () => {
     return (
         <div>
-            <header> My Header </header>
-            <Outlet/>
+            <header></header>
+            <Outlet />
         </div>
     )
 }
