@@ -23,41 +23,41 @@ const DrawerCustom = ({ drawerWidth }) => {
             <Divider />
             <List>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton component="a" href='/'>
                         <ListItemIcon>
-                            <Home/>
+                            <Home />
                         </ListItemIcon>
                         <ListItemText primary="Home" />
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton component="a" href='/create'>
                         <ListItemIcon>
-                            <Create/>
+                            <Create />
                         </ListItemIcon>
                         <ListItemText primary="Create" />
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton component="a" href='/profile'>
                         <ListItemIcon>
-                            <Person2/>
+                            <Person2 />
                         </ListItemIcon>
                         <ListItemText primary="Profile" />
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton component="a" href='/settings'>
                         <ListItemIcon>
-                            <Settings/>
+                            <Settings />
                         </ListItemIcon>
                         <ListItemText primary="Settings" />
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
-                    <ListItemButton>
+                    <ListItemButton component="a" href='/logout'>
                         <ListItemIcon>
-                            <Logout/>
+                            <Logout />
                         </ListItemIcon>
                         <ListItemText primary="Logout" />
                     </ListItemButton>
