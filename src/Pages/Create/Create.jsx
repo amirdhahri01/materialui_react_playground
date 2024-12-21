@@ -3,7 +3,7 @@ import "./Create.css"
 import { purple } from "@mui/material/colors";
 
 const ColorButton = styled(Button)(({ theme }) => ({
-  color: theme.palette.getContrastText(purple[500]),
+  color: theme.palette.getContrastText("#fff"),
   backgroundColor: purple[500],
   '&:hover': {
     backgroundColor: purple[700],
