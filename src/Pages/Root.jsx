@@ -7,7 +7,7 @@ const drawerWidth = 240
 
 const Root = () => {
     return (
-        <div>
+        <Box component="main">
             <header>
                 <AppBarCustom drawerWidth={drawerWidth} />
                 <DrawerCustom drawerWidth={drawerWidth} />
@@ -15,7 +15,7 @@ const Root = () => {
             <Box sx={{ml:`${drawerWidth}px` , display:"flex" , justifyContent:"center"}}>
                 <Outlet />
             </Box>
-        </div>
+        </Box>
     )
 }
 
