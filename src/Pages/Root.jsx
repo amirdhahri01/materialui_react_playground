@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { Avatar, Link, Typography, Toolbar, Box, AppBar, Divider, Drawer } from '@mui/material';
+import { Box } from '@mui/material';
 import AppBarCustom from 'MUI-Components/AppBarCustom';
 import DrawerCustom from 'MUI-Components/DrawerCustom';
 
@@ -12,7 +12,9 @@ const Root = () => {
                 <AppBarCustom drawerWidth={drawerWidth} />
                 <DrawerCustom drawerWidth={drawerWidth} />
             </header>
-            <Outlet />
+            <Box sx={{ml:`${drawerWidth}px` , display:"flex" , justifyContent:"center"}}>
+                <Outlet />
+            </Box>
         </div>
     )
 }
